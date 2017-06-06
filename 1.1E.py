@@ -9,8 +9,6 @@
 
 
 def greatest_common_factor(n, m):
-    if n > m:   # 如果n>m, 互换参数位置
-        return greatest_common_factor(m, n)
     if m % n == 0:
         return n
     else:
